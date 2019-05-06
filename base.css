@@ -1,0 +1,177 @@
+/*
+// COLOR PALETTE
+// Beige: #f5efc0
+// Light orange: #ff8476
+// Sky blue: #b0e89e  
+// Gray: #c0c5ce
+// Dark Gray: #4f5b66
+*/ 
+
+/* IMPORT S */
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+/* IMPORT E */
+
+/* BODY S */
+body {
+    padding: 0;
+    margin: 0;
+}
+/* BODY E */
+
+/* HEADER */
+
+
+#siteHeader {
+    padding: 20px;
+    margin: 0;
+    font-family: 'Uncial Antiqua', cursive;
+    letter-spacing: 20px;
+    font-size: 75px;
+    color: #4f5b66; 
+    text-align: center;
+    text-transform: uppercase;
+    background-color: 	#ffdfba;
+
+}
+
+/* HEADER */
+
+/* NAV S */
+nav {
+    display: flex;
+    background-color: #ffdfba;
+}
+
+nav a {
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #343d46;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+
+nav a:not(:last-child) {
+    border-width: 0 1px 0 0;
+    border-color: #343d46;
+    border-style: solid;
+}
+ 
+nav a:hover,
+nav a:focus {
+    background-color: #c0c5ce;
+}
+
+/* NAV E */
+
+/* PARAGRAPH S */
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 0; 
+    background-color: #536872;
+    font-family: 'Audiowide', cursive;
+    color: #ffdfba;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 15px;
+    
+}
+h2 {
+    font-family: 'El Messiri', sans-serif;
+    letter-spacing: 2px;
+    color: #ffdfba;
+    background-color: #536872;
+}
+
+.genre {
+    background-color: #ffdfba;
+    padding: 10px;
+
+}
+
+.discription {
+    color: #c0c5ce;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.rating {
+    padding: 0;
+    margin-right: 0;
+    color: #343d46;
+    background-color: #e7eff6;
+    font-family: 'El Messiri', sans-serif;
+}
+/* PARAGRAPH E */
+
+/* IMAGE S */
+.image-holder img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+/* IMAGE E */
+
+/* GRID */
+.grid {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    background-color: #343d46;
+}
+.grid img {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;   
+    border-radius: 10px; 
+}
+
+.grid-container {
+    display: grid;
+    padding: 2px;
+    background-color: 	#adcbe3;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+
+}
+
+
+
+/* GRID */
+
+/* BUTTON */
+.read-button {
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 0;
+    
+}
+
+.button-forum  {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.text-input {
+    margin: 0;
+    padding: 0;
+}
+/* BUTTON */
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #ffdfba;
+}
+/* FOOTER */
